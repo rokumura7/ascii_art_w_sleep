@@ -12,8 +12,11 @@
     "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "lint": "eslint 'src/**/*.ts'"
   },
-  "dependencies": {},
+  "dependencies": {
+    "figlet": "^1.5.0"
+  },
   "devDependencies": {
+    "@types/figlet": "^1.2.1",
     "@types/node": "^14.14.27",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",

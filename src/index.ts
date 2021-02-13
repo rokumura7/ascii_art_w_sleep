@@ -1,1 +1,5 @@
-console.log('Hello World');
+import { showAsciiArt } from './aa';
+
+(async () => {
+  await showAsciiArt('Hello');
+})();
