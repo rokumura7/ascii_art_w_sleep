@@ -1,6 +1,6 @@
 # ascii_art_w_sleep
 
-
+![ci](https://github.com/rokumura7/ascii_art_w_sleep/workflows/ci/badge.svg)
 
 ## Fonts
   '1Row'
