@@ -1,0 +1,28 @@
+{
+  "name": "ascii_art_w_sleep",
+  "version": "1.0.0",
+  "description": "Library to output ASCII art bit by bit.",
+  "main": "index.js",
+  "repository": "https://github.com/rokumura7/ascii_art_w_sleep.git",
+  "author": "rokumura7 <rokumura.8807@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run build:live",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.27",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
